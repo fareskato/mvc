@@ -1,0 +1,18 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: fkato
+ * Date: 27.08.17
+ * Time: 14:18
+ */
+
+
+/**
+ * Application constants
+ */
+
+if(!defined('DS')){
+    define('DS', DIRECTORY_SEPARATOR);
+}
+define('APP_PATH', realpath(dirname(__FILE__)));
+define('VIEWS_PATH', APP_PATH . DS . 'views' . DS);
